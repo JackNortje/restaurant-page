@@ -1,0 +1,46 @@
+ body {
+    background-image: url(https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+.brand-logo {
+    margin-left: 20px;
+}    
+li{
+    &:hover {
+        background-color: rgb(75, 75, 75);
+    }
+}
+
+    .container {
+        height: 100vh;
+        .homeView {
+            display: flex;
+            flex-direction: column;
+        }
+        .menuView {
+            display: none;
+            flex-direction: column;
+        }
+        .contactView {
+            display: none;
+            flex-direction: column;
+        }
+        h1 {
+            color: white;
+            margin-top:50px;
+            font-size: 60px;
+            background-color: black;
+            width: auto;
+        }
+        .para-home {
+            color: white;
+            margin-bottom: 0px;
+            font-size: 20px;
+            background-color: black;
+            
+        }
+    }
+ 
+ }
+

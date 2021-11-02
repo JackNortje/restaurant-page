@@ -1,0 +1,32 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackNortje/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackNortje/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/JackNortje/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "ember-cli-materialize": "^0.22.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

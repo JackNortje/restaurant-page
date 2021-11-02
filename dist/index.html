@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jacks Burger Co.</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+<!-- Nav Bar -->
+  <nav class="nav-wrapper  black">
+    
+
+        <a href="#" class="brand-logo align-left">Jacks Burger Co.</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons hide-on-small-and-up text-white">menu</i>
+        </a>
+
+    <ul class="right valign hide-on-med-and-down">
+        <li class="home"><a href="#">Home</a></li>
+        <li class="menu"><a href="#">Menu</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
+    </ul>
+    
+</nav>
+<ul class="sidenav black valign" id="mobile-links">
+  <li class="home"><a href="#" class="btn grey">Home</a></li>
+  <li class="menu"><a href="#" class="btn grey">Menu</a></li>
+  <li class="contact"><a href="#" class="btn grey">Contact</a></li>
+</ul>
+
+
+<!-- Sections -->
+
+
+
+<div class="container center-align">
+  
+  <div class="tab-content">
+
+    <div class="homeView" id="home">
+  <h1>Welcome to Jacks Burger Co.</h1>
+  <img src="./imgs/burger1.webp" alt="burger " class="responsive-img">
+  <p class="para-home">Jacks Burger Co has been Cape Towns no1 selling burger restaurant for decades.
+    With the freshed locally sourced produce and home made seeded buns, Jacks Burger Co is the ideal 
+  destination for those wanting a quick meal on the go or all inclusive family dinner. </p>
+</div>
+
+<div class="menuView" id="menu">
+<h1>Menu</h1>
+
+  <div class="item1">
+    <div class="menus">
+      <div class="row">
+        <div class="col s12 l12">
+          <div class="card">
+            <div class="card-image">
+              <img src="./imgs/beef 1.jpeg" alt="chef">
+                <div class="card-content">
+                  <span class="card-title">Beef Burger</span>
+                    <p class="p-card">Jacks 100% Pure Beef Burger</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  </div>
+
+  <div class="item2">
+    <div class="menus">
+      <div class="row">
+        <div class="col s12 l12">
+          <div class="card">
+            <div class="card-image">
+              <img src="./imgs/chick.jpeg" alt="chef">
+                <div class="card-content">
+                    <p class="p-card">Jacks Priemiun Crummed Chicken Burger</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  </div>
+
+  <div class="item3">
+    <div class="contact" >
+      <div class="row">
+        <div class="col s12 l12">
+          <div class="card">
+            <div class="card-image">
+              <img src="./imgs/vegan 1.jpeg" alt="chef">
+                <div class="card-content">
+                    <p class="p-card">Something for the Vegans</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="contactView" id="contact">
+  <h1>Contact</h1>
+  <div class="row">
+    <div class="col s12 l12">
+      <div class="card">
+        <div class="card-image">
+          <img src="./imgs/chef 1.webp" alt="chef">
+            <div class="card-content">
+                <p class="p-card">Tel Num: (021) 555-4351 <br>
+                Email: info@jacksburgerco.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      $(document).ready(function() {
+          $('.sidenav').sidenav();
+      })
+  </script>
+</body>
+</html>
